@@ -44,6 +44,18 @@ inoremap jk <Esc>
 nmap <F8> :TagbarToggle<CR>
 
 
+"""""""""""""""""""""""""""""
+" => Splits
+"""""""""""""""""""""""""""""
+set splitbelow splitright
+
+" Remapping splits navigation to just CTRL + hjkl
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+
 " Airline """""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
