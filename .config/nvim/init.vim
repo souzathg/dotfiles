@@ -32,6 +32,7 @@ Plug 'https://github.com/tc50cal/vim-terminal'			" Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors'	" CTRL + N for multiple cursors
 Plug 'https://github.com/preservim/tagbar'				" Tagbar for code navigation
 Plug 'https://github.com/neoclide/coc.nvim'				" Auto completion
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 call plug#end()
 
